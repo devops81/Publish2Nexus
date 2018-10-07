@@ -28,8 +28,7 @@
     </scm>
     <build>
         <plugins>
-            <plugin>
-                 <plugin>
+             <plugin>
    <groupId>org.sonatype.plugins</groupId>
    <artifactId>nexus-staging-maven-plugin</artifactId>
    <version>1.5.1</version>
@@ -48,7 +47,8 @@
       <skipStaging>true</skipStaging>
    </configuration>
 </plugin>
-                <artifactId>maven-compiler-plugin</artifactId>
+            <plugin>
+               <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.1</version>
                 <configuration>
                     <source>1.7</source>
